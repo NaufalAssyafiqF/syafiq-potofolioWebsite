@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.body {
+    background-color: #2C3333
+}
+
+/* .mycontainer {
+    background-color: #2C3333;
+} */
+
+.hero {
+    background-image: url('assets/bg_jumbroton.png'); /* Ganti 'gambar.jpg' dengan URL gambar yang Anda inginkan */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Mengisi tinggi layar */
+  background-color: #2C3333;
+}
+
+.header nav {
+    background-color: rgb(0, 0, 0, 0);
+    width: 200vh;
+}
+
+.hero .hero-text h1 {
+    color: #39A7FF;
+}
+
+.about {
+    background-color: #202626;
+    padding-top: 100px;
+}
+
+.about-card {
+    margin-top: 30px;
+}
+
+
+
+.me {
+    color: #39A7FF;
+}
+
+.about div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+
+.about h1 {
+    border-bottom: 2.5px solid #39A7FF;
+    width: 30%;
+}
+
+.about .text-aboutme{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+    line-height: 2;
+    padding: 1.2rem 4rem;
+}
+
+.about .text-aboutme span {
+    font-weight: bold;
+}
+
+.about .quote {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    font-style: italic;
+}
+
+.about-gap {
+    background-color: #202626;
+    height: 20vh;
+}
+
+.portofolio {
+    background-color: #2C3333;
+    padding-top: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.portofolio h1 {
+    color: white;
+    border-bottom: 2.5px solid #39A7FF;
+    width: 30%;
+    padding-bottom: 10px;
+}
+
+.portofolio h1 span {
+    color: #39A7FF;
+}
+
+.portofolio h3 {
+    color: white;
+    padding-top: 2.5rem
+}
+
+.my-card {
+    padding-top: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-porto {
+    width: 350px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.card-porto img {
+    width: 80%; /* Gambar tidak akan melebihi lebar div */
+    /* height: auto; */
+}
+
+.card-porto p {
+    color: white;
+    font-weight: bold;
+    font-size: medium; 
+}
+
+.card-modelling {
+    width: 300px;
+    padding-top: 40px;
+    
+}
+
+.card-modelling img {
+    max-width: 90%;
+    max-height: 90%; /* Gambar tidak akan melebihi lebar div */
+    height: auto;
+    box-shadow: 8px 8px 8px #4285f4;
+}
+
+.porto-gap {
+    background-color: #2C3333;
+    height: 10vh;
+}
+
+.carousel-section {
+    background-color: #202626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-section h1 {
+    padding-top: 3.2rem;
+    border-bottom: 2.5px solid #39A7FF;
+    width: 30%;
+    padding-bottom: 0.3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.karosel {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-container {
+    width: 45rem;
+}
+
+
+.carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(255deg) brightness(105%) contrast(101%);
+    }
+
+
+
+.footer {
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.footer img {
+    width: 8rem;
+    /* padding-bottom: 2rem; */
+    outline: 2px solid #4285f4;
+    box-shadow: 0 4px 8px #4285f4;
+}
+
+.footer p {
+    padding-top: 2rem;
+    color: white;
+}
+
+.footer-icon {
+    padding-bottom: 3rem;
+}
+
+
+/* animasi */
+.animate__animated .animate__fadeInLeft {
+    --animate-delay: 0.9s;
+}

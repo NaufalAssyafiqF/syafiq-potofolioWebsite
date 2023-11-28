@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+  <div class="mycontainer">
+    <!-- hero section -->
+    <div class="header">
+      <nav class="navbar navbar-expand-lg sticky-top position-fixed">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light"" aria-current=" page" href="#hero">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light"" aria-current=" page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#portofolio">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#sertifikasi">Sertifikasi</a>
+              </li>
+
+            </ul>
+            <button id="kontakme" class="btn btn-primary btn-nav mx-5 px-3 text-light rounded-pill">contact me</button>
+          </div>
+        </div>
+      </nav>
+
+      <div id="hero" class="hero">
+        <div class="hero-text position-absolute top-50 start-0 translate-middle-y ms-4 mt-5 animate__animated animate__fadeInLeft">
+          <h3 class="text-light">Halo Semua, Saya</h3>
+          <h1>Naufal Assyafiq Febriansyah</h1>
+          <h2 class="text-light">Seorang Frontend Developer</h2>
+          <p class="text-light">Mahasiswa Teknik Informatika yang senang dengan dunia pemograman <br>Frontend Web dan
+            mobile, tertarik juga dengan 3D modelling.</p>
+          <div>
+            <button class="btn btn-outline-info rounded-circle mx-1"><i class="bi bi-instagram"></i></button>
+            <button class="btn btn-outline-info rounded-circle mx-2"><i class="bi bi-linkedin"></i></button>
+            <button class="btn btn-outline-info rounded-circle mx-2"><i class="bi bi-github"></i></button>
+          </div>
+          <button id="downloadCv" class="btn btn-info mt-4">Download My CV</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- about section -->
+    <div id="about" class="about">
+      <div class="border  border-info border-4 mx-5">
+        <h1 class="text-center text-light mt-4">About <span class="me">Me</span></h1>
+        <p class="quote">"Ilmu hari ini adalah teknologi dimasa depan"</p>
+        <p class="text-aboutme">Saya mahasiswa jurusan Teknik Informatika di Universitas Muhammadiyah Prof Dr. HAMKA,
+          saya sangat tertarik untuk mendalami <span>pengembangan web dan pemodelan 3D.</span> Saya merupakan pembelajar
+          yang antusias, selalu mencari peluang untuk memperluas pengetahuan saya baik di dalam maupun di luar kampus.
+          Dengan keterampilan yang telah saya peroleh, saya bersemangat untuk mengaplikasikan keahlian saya di industri
+          teknologi dan berkolaborasi dengan para profesional untuk mendapatkan ilmu baru dari mereka. harapan saya
+          untuk dapat terus belajar dan berkontribusi dalam dunia teknologi yang terus berkembang saat ini.</p>
+      </div>
+    </div>
+    <div class="about-gap">
+
+    </div>
+
+    <!-- portofolio section -->
+    <div id="portofolio" class="portofolio">
+      <h1><span>My</span> Portofolio</h1>
+      <h3>Website/Aplikasi</h3>
+      <div class="my-card ">
+        <div class="container-fluid cards-container row">
+          <div class="card-porto col-5 px-3 m-2 rounded">
+            <div class="card-inner">
+              <img src="/assets/parkour-jakarta.jpg" alt="">
+              <p>Website landing page parkour jakarta</p>
+            </div>
+            
+          </div>
+          <div class="card-porto col-5 px-3 m-2 rounded">
+            <div class="card-inner">
+              <img src="/assets/uhamka-sehat.jpg" alt="">
+            <p>Website uhamka sehat</p>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid cards-container row">
+          <div class="card-porto col-5 px-3 m-2 rounded">
+            <div class="card-inner">
+              <img src="/assets/aplikasi-kriptografi.jpg" alt="">
+            <p>Website aplikasi kriptografi</p>
+            </div>
+            
+          </div>
+          <div class="card-porto col-5 px-3 m-2 rounded ">
+            <div class="card-inner">
+              <img src="/assets/sentigo-bangkit.jpg" alt="">
+            <p>Aplikasi mobile sentigo rekomendasi tempat wisata</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <h3>3D Modelling</h3>
+      <div class="container-fluid">
+        <div class="container-fluid cards-container row">
+          <div class="card-modelling col-3 d-flex justify-content-center m-2">
+            <img src="/assets/karakter spesial HUT RI 78.png" alt="">
+          </div>
+          <div class="card-modelling col-3 m-2">
+            <img src="/assets/toko jepang.png" alt="">
+          </div>
+          <div class="card-modelling col-3 m-2">
+            <img src="/assets/gedung FTII fix.png" alt="">
+          </div>
+        </div>
+        <div class="container-fluid cards-container row">
+          <div class="card-modelling col-3 m-2">
+            <img src="/assets/box game mario.png" alt="">
+          </div>
+          <div class="card-modelling col-3 m-2">
+            <img src="/assets/beach lowpoly.png" alt="">
+          </div>
+          <div class="card-modelling col-3 m-2">
+            <img src="/assets/simple home.png" alt="">
+          </div>
+        </div>
+        <div class="container-fluid cards-container row">
+          <div class="card-modelling col-3 m-2">
+            <img src="/assets/bathroom.png" alt="">
+          </div>
+          <div class="card-modelling col-3 m-2">
+            <img src="/assets/bakeryshop grease pencil.png" alt="">
+          </div>
+          <div class="card-modelling col-3 m-2">
+            <img src="/assets/home office.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="porto-gap"></div>
+  <!-- sertification section -->
+  <div id="sertifikasi" class="carousel slide carousel-section">
+    <h1>Sertifikasi</h1>
+    <div class="karosel ">
+      <div class="carousel-container">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/assets/cloud-engineer.jpg" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/dasar-javascript.jpg" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/frontend-web.jpg" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/backend-pemula.jpg" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/html-css.jpg" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/web-react.jpg" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/Sertifikat Bangkit.jpg" class="w-100" alt="...">
+          </div>
+
+
+          <button class="carousel-control-prev button-left" type="button" data-bs-target="#sertifikasi"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next button-right" type="button" data-bs-target="#sertifikasi"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <img class="rounded-circle" src="assets/saya.png" alt="">
+      <p class="">Thanks for scrolling, I appreciate your visit!</p>
+      <div class="footer-icon">
+        <button class="btn btn-outline-info rounded-circle mx-1"><i class="bi bi-instagram"></i></button>
+        <button class="btn btn-outline-info rounded-circle mx-2"><i class="bi bi-linkedin"></i></button>
+        <button class="btn btn-outline-info rounded-circle mx-2"><i class="bi bi-github"></i></button>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- footer -->
+
+
+  <!-- bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
